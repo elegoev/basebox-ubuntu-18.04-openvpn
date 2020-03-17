@@ -6,22 +6,29 @@ RED='\033[0;31m'
 BLUE='\033[0;34m'
 NC='\033[0m'
 
-echo -e "${BLUE}##################################${NC}"
-echo -e "${BLUE}# >>>> start provisioning         ${NC}"
-echo -e "${BLUE}##################################${NC}"
+echo -e "${BLUE}#################################${NC}"
+echo -e "${BLUE}# >>>> start provisioning        ${NC}"
+echo -e "${BLUE}#################################${NC}"
 
 # install openvpn
 echo -e "${GREEN}#################################${NC}"
 echo -e "${GREEN}# >>>> install easy-openvpn      ${NC}"
 echo -e "${GREEN}#################################${NC}"
-sudo apt-get install -y dnsmasq
-sudo cp /vagrant/files/dnsmasq/dnsmasq.conf /etc/dnsmasq.conf
+snap install easy-openvpn
 
+# enable ip forwarding
+echo -e "${GREEN}#################################${NC}"
+echo -e "${GREEN}# >>>> enable ip forwarding      ${NC}"
+echo -e "${GREEN}#################################${NC}"
+sudo sysctl -w net.ipv4.ip_forward=1
 
-# set version
-OPENVPN_VERSION=$(dnsmasq --version | grep "Dnsmasq version" | awk  '{print $3}')
-echo "$DNSMASQ_VERSION" > /vagrant/version
+# setup server
+echo -e "${GREEN}#################################${NC}"
+echo -e "${GREEN}# >>>> setup easy-openvpn        ${NC}"
+echo -e "${GREEN}#################################${NC}"
+# snap set easy-openvpn nopasswd=1
+# sudo easy-openvpn.setup -u udp://171.16.1.20
 
-echo -e "${BLUE}#################################${NC}"
-echo -e "${BLUE}# >>>> end provisioning          ${NC}"
-echo -e "${BLUE}#################################${NC}"
+echo -e "${BLUE}################################${NC}"
+echo -e "${BLUE}# >>>> end provisioning         ${NC}"
+echo -e "${BLUE}################################${NC}"

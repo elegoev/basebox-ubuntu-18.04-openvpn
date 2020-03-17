@@ -12,6 +12,7 @@
         "ip":      "171.16.1.20",
         "netmask": "255.255.255.0",
         "netname": "vagrant-ubuntu1804-openvpn-net1",
+        "nettype": "hostonly",
         "nictype": "82540EM"
       }
     ],
@@ -19,6 +20,23 @@
       {
         "script": "ubuntu-18.04-openvpn.sh"
       }
+    ],
+    "vb_port_forwarding": [
+      {
+        "host":         "1149",
+        "host_ip":      "127.0.0.1",
+        "guest":        "1149",
+        "protocol":     "udp",
+        "id":           "udp-openvpn"
+      },
+      {
+        "host":         "443",
+        "host_ip":      "127.0.0.1",
+        "guest":        "443",
+        "protocol":     "tcp",
+        "id":           "https-openvpn"
+      }
     ]
+
   }
 }

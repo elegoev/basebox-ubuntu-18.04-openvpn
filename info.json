@@ -2,6 +2,6 @@
  "Author": "Urs Voegele",
  "Repository": "git@github.com:elegoev/basebox-ubuntu-18.04-openvpn.git",
  "OS": "Ubuntu",
- "Description": "vagrant basebox with ubuntu 18.04 & openvpn",
+ "Description": "vagrant basebox with ubuntu 18.04 & easy-openvpn",
  "Version Description": "openVPN release update"
 }

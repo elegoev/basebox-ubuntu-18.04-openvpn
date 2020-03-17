@@ -1,6 +1,6 @@
 # ubuntu-18.04-openvpn
 
-Vagrant Box with Ubuntu 18.04 & openVPN
+Vagrant Box with Ubuntu 18.04 & easy-openVPN
 
 ## Base image
 
@@ -9,6 +9,12 @@ Used base image [elegoev/ubuntu-18.04](https://app.vagrantup.com/elegoev/boxes/u
 ## Automatic provisioning
 
 The base image is provisioned with bash script [ubuntu-18.04-openvpn.sh](https://github.com/elegoev/basebox-ubuntu-18.04-openvpn/blob/master/provisioning/ubuntu-18.04-openvpn.sh)
+
+## References
+
+- [easy-openvpn documentation logo easy-openvpn documentation](https://docs.ubuntu.com/core/en/stacks/network/easy-openvpn/docs)
+- [Install Easy OpenVPN Server](https://snapcraft.io/easy-openvpn-server)
+- [easy-openvpn Snap Configuration](https://docs.ubuntu.com/core/en/stacks/network/easy-openvpn/docs/reference/snap-configuration/snap-configuration)
 
 ## Configuration
 
@@ -21,7 +27,7 @@ The base image is provisioned with bash script [ubuntu-18.04-openvpn.sh](https:/
 - vagrant-vbguest
 - vagrant-vmware-esxi
 
-##  Create Vagrant Box Environment
+## Create Vagrant Box Environment
 
 ### Provider "virtualbox"
 
