@@ -12,7 +12,7 @@ The base image is provisioned with bash script [ubuntu-18.04-openvpn.sh](https:/
 
 ## References
 
-- [easy-openvpn documentation logo easy-openvpn documentation](https://docs.ubuntu.com/core/en/stacks/network/easy-openvpn/docs)
+- [easy-openvpn documentation logo easy-openvpn documentation](https://docs.ubuntu.com/core/en/stacks/network/easy-openvpn/docs/)
 - [Install Easy OpenVPN Server](https://snapcraft.io/easy-openvpn-server)
 - [easy-openvpn Snap Configuration](https://docs.ubuntu.com/core/en/stacks/network/easy-openvpn/docs/reference/snap-configuration/snap-configuration)
 
