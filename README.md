@@ -75,12 +75,12 @@ Repository follows sematic versioning  [![semantic versioning](https://img.shiel
 
 ### Changelog
 
-For all notable changes see [CHANGELOG](https://github.com/elegoev/basebox-ubuntu-18.04-nfs/blob/master/CHANGELOG.md)
+For all notable changes see [CHANGELOG](https://github.com/elegoev/basebox-ubuntu-18.04-openvpn/blob/master/CHANGELOG.md)
 
 ### License
 
-Licensed under The MIT License (MIT) - for the full copyright and license information, please view the [LICENSE](https://github.com/elegoev/basebox-ubuntu-18.04-nfs/blob/master/LICENSE) file.
+Licensed under The MIT License (MIT) - for the full copyright and license information, please view the [LICENSE](https://github.com/elegoev/basebox-ubuntu-18.04-openvpn/blob/master/LICENSE) file.
 
 ### Issue Reporting
 
-Any and all feedback is welcome.  Please let me know of any issues you may find in the bug tracker on github. You can find it [here.](https://github.com/elegoev/basebox-ubuntu-18.04-nfs/issues)
+Any and all feedback is welcome.  Please let me know of any issues you may find in the bug tracker on github. You can find it [here.](https://github.com/elegoev/basebox-ubuntu-18.04-openvpn/issues)
